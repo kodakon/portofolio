@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+}
+
+  header {
+	background-image: url('https://images.unsplash.com/photo-1575107053907-2bf15b72debc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60');
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+} 
+
+.main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	width: 100%;
+	float: left;
+}
+
+.main {
+	position: fixed;
+}
+
+.main li {
+	float: left;
+}
+
+.main ul li {
+	width: 20%;
+}
+
+.main li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.title {
+	width: 100%;
+}
+
+.title h1 {
+	position: absolute;
+	font-size: 4vw;
+	left: 5%;
+	top: 20%;
+}
+
+.title p {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	font-size: 1.5vw;
+	margin-bottom: 10%;
+}
+
+#asal {
+	top: 45%;
+}
+
+.title img {
+	float: right;
+	width: 500px;
+	height: auto;
+	margin-right: 10%;
+
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10%;
+}
+
+.column p {
+	text-align: justify;
+	font-size: 20px;
+	margin-left: 4%;
+
+}
+
+.column ul li {
+	font-size: 20px;
+}
+
+#gbrpoto {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+#rowskill{
+	background-color: #0CBABA;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.titleskill {
+	text-align: center;
+}
+
+.column4  {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.column4 img {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10%;
+}
+
+.column h2 {
+	font-size: 100px;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.gridrow {
+	display: grid;
+	grid-row-gap: 10%;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	margin-bottom: 15%;
+}
+
+.rowitem {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.col-5 img {
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #FBACBE;
+	color: white;
+	text-align: center;
+}
+
+[class*="col-"]{
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+	.col-1 {width: 100%;}
+	.col-2 {width: 50%;}
+	.col-3 {width: 50%;}
+	.col-4 {width: 25%;}
+	.col-5 {width: 100%;}
+}
+
+#aplikasi {
+	width: 90%;
+}
+
+
+
